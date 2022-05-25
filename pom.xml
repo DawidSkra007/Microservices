@@ -12,7 +12,8 @@
     <module>customer</module>
     <module>Fraud</module>
     <module>eureka-server</module>
-      <module>clients</module>
+    <module>clients</module>
+    <module>notification</module>
   </modules>
 
   <name>microservices</name>
@@ -21,8 +22,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>15</maven.compiler.source>
-    <maven.compiler.target>15</maven.compiler.target>
+    <maven.compiler.source>16</maven.compiler.source>
+    <maven.compiler.target>16</maven.compiler.target>
     <spring.boot.maven.plugin.version>2.5.7</spring.boot.maven.plugin.version>
     <spring.boot.dependencies.version>2.5.7</spring.boot.dependencies.version>
     <spring.cloud-version>2020.0.3</spring.cloud-version>
