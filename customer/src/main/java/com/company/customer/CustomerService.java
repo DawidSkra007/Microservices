@@ -38,10 +38,8 @@ public class CustomerService {
         notificationClient.sendNotification(
                 new NotificationRequest(
                         customer.getId(),
-                        customer.getEmail(),
-                        String.format("Hi %s, Welcome.",
-                                customer.getFirstName())
-                )
-        );
+                        customer.getFirstName(),
+                        String.format("Hi %s, Welcome.", customer.getFirstName())
+                ));
     }
 }
